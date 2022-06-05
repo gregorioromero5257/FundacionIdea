@@ -1,0 +1,78 @@
+
+.py-5-home {
+  background-color: #364752;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 482px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-content: center;
+  justify-content: center;
+}
+
+.grid-banner-home {
+  display: grid;
+  grid-template-columns: 56% 44%;
+}
+
+.pd-text-b{
+  padding: 100px 0px 0px 40px;
+}
+
+
+.text-white {
+  color: #FFFEFE !important;
+}
+
+/* ***************************************************************** */
+/*                          FONTS DIN PRO                            */
+/* ***************************************************************** */
+
+@font-face {
+font-family: "DIN-Pro-400";
+src: local("DINPro400"),
+ url("../../fonts/DIN-Pro/DIN-Pro-400.otf") format("truetype");
+}
+
+.font-face-dp {
+ font-family: "DIN-Pro-400";
+}
+
+@font-face {
+font-family: "DIN-Pro-Light-300";
+src: local("DINProLight300"),
+ url("../../fonts/DIN-Pro/DIN-Pro-Light-300.otf") format("truetype");
+ font-weight: 300;
+}
+
+.font-face-dpl {
+ font-family: "DIN-Pro-Light-300";
+}
+
+/*  */
+.s-one-ban-text {
+  font-size: 52px;
+}
+
+.s-three-ban-text {
+  font-size: 21px;
+}
+/*  */
+.size-home-banner {
+  width: 100%;
+}
+
+.grid-home {
+  display: grid;
+  grid-template-areas: "uno uno"
+                       "tres cuatro"
+                       "cinco cinco"
+                       "seis seis";
+  grid-template-columns: 50% 50%;
+}
+
+.uno {
+  grid-area: uno;
+  margin: 30px 0px 12px 0px;
+  text-align: justify;
+}
